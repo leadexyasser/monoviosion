@@ -108,7 +108,7 @@ export default function ExperiencePage() {
             C&apos;est une expérience, une atmosphère, un moment de confiance.&rdquo;
           </p>
           <div className="w-8 h-0.5 bg-brass mx-auto mt-6 mb-4" />
-          <p className="font-sans text-sm text-obsidian/50">— Abdullah Barada, fondateur</p>
+          <p className="font-sans text-sm text-obsidian/50">— Abdellah Berrada, fondateur</p>
         </div>
       </div>
 

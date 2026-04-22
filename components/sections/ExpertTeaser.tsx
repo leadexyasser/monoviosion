@@ -55,7 +55,7 @@ export default function ExpertTeaser() {
                 Expert
               </p>
               <p className="font-playfair text-lg text-ivory leading-tight">
-                Abdullah Barada
+                Abdellah Berrada
               </p>
               <p className="font-sans text-xs text-cream/65 mt-1 leading-relaxed">
                 Fondateur & Opticien spécialiste
@@ -67,7 +67,7 @@ export default function ExpertTeaser() {
             <div className="lg:hidden mt-4 flex items-center gap-4 bg-obsidian px-5 py-4">
               <div className="w-6 h-0.5 bg-brass flex-shrink-0" />
               <div>
-                <p className="font-playfair text-base text-ivory leading-tight">Abdullah Barada</p>
+                <p className="font-playfair text-base text-ivory leading-tight">Abdellah Berrada</p>
                 <p className="font-sans text-xs text-cream/65 mt-0.5">Fondateur & Opticien spécialiste</p>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function ExpertTeaser() {
             </div>
 
             <p className="font-sans text-base text-obsidian/75 leading-relaxed max-w-lg">
-              Abdullah Barada a fondé Optique Monovision avec une conviction simple :
+              Abdellah Berrada a fondé Optique Monovision avec une conviction simple :
               chaque client mérite un accompagnement clinique rigoureux et un conseil
               sincère. Spécialisé en adaptation de lentilles de contact, il combine
               précision médicale et passion pour le design optique.
@@ -117,7 +117,7 @@ export default function ExpertTeaser() {
               href="/expert"
               className="group inline-flex items-center gap-2 font-sans text-sm font-medium text-obsidian/80 hover:text-brass transition-colors duration-200 border-b border-obsidian/20 hover:border-brass pb-0.5 w-fit mt-1"
             >
-              En savoir plus sur Abdullah
+              En savoir plus sur Abdellah
               <ArrowRight size={13} className="transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
           </motion.div>

@@ -133,7 +133,8 @@ export const GALLERY_IMAGES = [
 
 export const CONTACT = {
   address: 'Avenue Hassan II, Meknès 50000, Maroc',
-  phone: '+212 5XX-XXXXXX',
+  phone: '05 32 69 36 26',
+  mobile: '07 86 12 10 11',
   instagram: '@optique.monovision',
   instagramUrl: 'https://www.instagram.com/optique.monovision',
   googleMapsUrl: 'https://maps.app.goo.gl/YoZfEc5vMNYRDafF9',

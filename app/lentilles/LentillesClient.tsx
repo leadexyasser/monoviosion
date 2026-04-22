@@ -121,7 +121,7 @@ export default function LentillesClient({
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-6 h-px bg-brass" />
                 <span className="font-sans text-xs tracking-[0.3em] text-brass/80 uppercase">
-                  Le protocole d&apos;Abdullah
+                  Le protocole d&apos;Abdellah
                 </span>
               </div>
               <h2 className="font-playfair text-[clamp(1.8rem,4vw,2.8rem)] text-ivory leading-tight">

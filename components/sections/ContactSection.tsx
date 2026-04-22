@@ -78,9 +78,15 @@ export default function ContactSection() {
                   </p>
                   <Link
                     href={`tel:${CONTACT.phone.replace(/\s/g, '')}`}
-                    className="font-sans text-sm text-cream/80 hover:text-brass transition-colors duration-200"
+                    className="font-sans text-sm text-cream/80 hover:text-brass transition-colors duration-200 block"
                   >
                     {CONTACT.phone}
+                  </Link>
+                  <Link
+                    href={`tel:${CONTACT.mobile.replace(/\s/g, '')}`}
+                    className="font-sans text-sm text-cream/80 hover:text-brass transition-colors duration-200 block mt-0.5"
+                  >
+                    {CONTACT.mobile}
                   </Link>
                 </div>
               </div>

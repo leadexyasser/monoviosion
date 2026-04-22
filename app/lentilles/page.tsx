@@ -8,7 +8,7 @@ import LentillesClient from './LentillesClient'
 export const metadata: Metadata = {
   title: 'Lentilles de Contact — Optique Monovision',
   description:
-    "Spécialité d'Abdullah Barada : adaptation de lentilles journalières, mensuelles, toriques et multifocales. Protocole complet en 6 étapes à Meknès.",
+    "Spécialité d'Abdellah Berrada : adaptation de lentilles journalières, mensuelles, toriques et multifocales. Protocole complet en 6 étapes à Meknès.",
 }
 
 const lensTypes = [
@@ -35,7 +35,7 @@ const lensTypes = [
     iconKey: 'Eye',
     label: 'Toriques',
     tagline: "Pour l'astigmatisme, une précision absolue.",
-    desc: "Conçues pour corriger l'astigmatisme avec une stabilisation axiale parfaite. Abdullah sélectionne personnellement chaque marque pour ses patients.",
+    desc: "Conçues pour corriger l'astigmatisme avec une stabilisation axiale parfaite. Abdellah sélectionne personnellement chaque marque pour ses patients.",
     points: ["Astigmatisme traité", 'Correction précise', 'Grande stabilité'],
     dark: true,
   },
@@ -60,11 +60,11 @@ const process = [
 ]
 
 const faqs = [
-  { q: "Les lentilles sont-elles confortables pour les yeux secs ?", a: "Certaines lentilles sont spécialement formulées pour les yeux secs, avec des matériaux hydrophiles haute teneur en eau ou des lentilles en silicone hydrogel haute perméabilité à l'oxygène. Abdullah évalue votre sécheresse lors du bilan et sélectionne la lentille adaptée." },
-  { q: "À partir de quel âge peut-on commencer les lentilles ?", a: "En général dès 12–14 ans, à condition que l'enfant soit motivé et responsable dans l'entretien. Abdullah évalue la maturité de chaque patient lors de la consultation." },
-  { q: "Peut-on dormir avec des lentilles de contact ?", a: "Certaines lentilles sont approuvées pour le port nocturne, mais ce n'est pas recommandé en règle générale. Les lentilles ortho-K (port nocturne pour la myopie) sont une exception prescrite par Abdullah pour certains profils." },
+  { q: "Les lentilles sont-elles confortables pour les yeux secs ?", a: "Certaines lentilles sont spécialement formulées pour les yeux secs, avec des matériaux hydrophiles haute teneur en eau ou des lentilles en silicone hydrogel haute perméabilité à l'oxygène. Abdellah évalue votre sécheresse lors du bilan et sélectionne la lentille adaptée." },
+  { q: "À partir de quel âge peut-on commencer les lentilles ?", a: "En général dès 12–14 ans, à condition que l'enfant soit motivé et responsable dans l'entretien. Abdellah évalue la maturité de chaque patient lors de la consultation." },
+  { q: "Peut-on dormir avec des lentilles de contact ?", a: "Certaines lentilles sont approuvées pour le port nocturne, mais ce n'est pas recommandé en règle générale. Les lentilles ortho-K (port nocturne pour la myopie) sont une exception prescrite par Abdellah pour certains profils." },
   { q: "Combien de temps dure une adaptation ?", a: "En général 1 à 2 semaines pour s'habituer. Le suivi à J+30 confirme que tout va bien. Pour les lentilles toriques ou multifocales, l'adaptation peut prendre un peu plus de temps." },
-  { q: "Peut-on porter des lentilles avec de l'astigmatisme ?", a: "Absolument. Les lentilles toriques corrigent précisément l'astigmatisme. Abdullah est spécialisé dans leur adaptation, qui nécessite plus de précision que pour des lentilles sphériques standard." },
+  { q: "Peut-on porter des lentilles avec de l'astigmatisme ?", a: "Absolument. Les lentilles toriques corrigent précisément l'astigmatisme. Abdellah est spécialisé dans leur adaptation, qui nécessite plus de précision que pour des lentilles sphériques standard." },
 ]
 
 export default function LentillesPage() {
@@ -87,14 +87,14 @@ export default function LentillesPage() {
         <div className="relative z-10 max-w-3xl mx-auto text-center">
           <div className="flex items-center justify-center gap-3 mb-5">
             <div className="w-6 h-px bg-brass" />
-            <span className="font-sans text-xs tracking-[0.3em] text-brass/80 uppercase">Spécialité d&apos;Abdullah Barada</span>
+            <span className="font-sans text-xs tracking-[0.3em] text-brass/80 uppercase">Spécialité d&apos;Abdellah Berrada</span>
             <div className="w-6 h-px bg-brass" />
           </div>
           <h1 className="font-playfair text-[clamp(2.2rem,6vw,4.5rem)] text-ivory leading-tight mb-5">
             Lentilles de Contact
           </h1>
           <p className="font-sans text-base text-cream/60 leading-relaxed max-w-xl mx-auto mb-8">
-            Une expertise qui va au-delà de la prescription. Abdullah accompagne
+            Une expertise qui va au-delà de la prescription. Abdellah accompagne
             chaque patient vers la solution la plus précise, la plus confortable et
             la plus adaptée à son mode de vie.
           </p>
@@ -123,7 +123,7 @@ export default function LentillesPage() {
               Pas juste des lentilles —<br /><span className="italic">la bonne solution pour vous.</span>
             </h2>
             <p className="font-sans text-base text-obsidian/65 leading-relaxed mb-5">
-              Beaucoup d&apos;opticiens prescrivent des lentilles. Abdullah Barada les adapte.
+              Beaucoup d&apos;opticiens prescrivent des lentilles. Abdellah Berrada les adapte.
               Il mesure, évalue, essaie, ajuste — jusqu&apos;à ce que la solution soit parfaite.
             </p>
             <p className="font-sans text-base text-obsidian/65 leading-relaxed mb-8">
@@ -160,11 +160,11 @@ export default function LentillesPage() {
       <div className="bg-obsidian py-20 px-6 text-center">
         <h2 className="font-playfair italic text-[clamp(1.8rem,4vw,3rem)] text-ivory mb-4">Prêt à passer aux lentilles ?</h2>
         <p className="font-sans text-sm text-cream/55 leading-relaxed mb-8 max-w-md mx-auto">
-          Venez rencontrer Abdullah en boutique — il prend le temps de tout comprendre avant de tout prescrire.
+          Venez rencontrer Abdellah en boutique — il prend le temps de tout comprendre avant de tout prescrire.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <Link href="/contact" className="px-8 py-3.5 bg-brass text-obsidian font-sans text-sm tracking-wide font-medium hover:bg-oak transition-colors duration-300">Prendre rendez-vous</Link>
-          <Link href="/expert" className="px-8 py-3.5 border border-cream/20 text-cream/70 font-sans text-sm tracking-wide hover:border-cream/50 hover:text-cream transition-all duration-300">En savoir plus sur Abdullah</Link>
+          <Link href="/expert" className="px-8 py-3.5 border border-cream/20 text-cream/70 font-sans text-sm tracking-wide hover:border-cream/50 hover:text-cream transition-all duration-300">En savoir plus sur Abdellah</Link>
         </div>
       </div>
     </div>

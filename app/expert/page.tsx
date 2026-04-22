@@ -4,9 +4,9 @@ import Link from 'next/link'
 import { Award, Microscope, BookOpen, Heart, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: "L'Expert — Abdullah Barada · Optique Monovision",
+  title: "L'Expert — Abdellah Berrada · Optique Monovision",
   description:
-    "Rencontrez Abdullah Barada, opticien diplômé d'État et spécialiste en lentilles de contact. Fondateur d'Optique Monovision à Meknès.",
+    "Rencontrez Abdellah Berrada, opticien diplômé d'État et spécialiste en lentilles de contact. Fondateur d'Optique Monovision à Meknès.",
 }
 
 const milestones = [
@@ -41,7 +41,7 @@ const values = [
   {
     Icon: Microscope,
     title: 'Rigueur clinique',
-    desc: "L'improvisation n'a pas sa place en optique. Abdullah applique des protocoles stricts pour garantir une prescription fiable et confortable.",
+    desc: "L'improvisation n'a pas sa place en optique. Abdellah applique des protocoles stricts pour garantir une prescription fiable et confortable.",
   },
   {
     Icon: Award,
@@ -51,7 +51,7 @@ const values = [
   {
     Icon: BookOpen,
     title: 'Formation continue',
-    desc: "L'optique évolue vite. Abdullah se tient informé des dernières avancées en contactologie et en technologie optique.",
+    desc: "L'optique évolue vite. Abdellah se tient informé des dernières avancées en contactologie et en technologie optique.",
   },
 ]
 
@@ -65,7 +65,7 @@ export default function ExpertPage() {
         <div className="relative h-[60vw] lg:h-auto overflow-hidden bg-navy">
           <Image
             src="/images/store-interior.jpg"
-            alt="Abdullah Barada dans sa boutique Optique Monovision"
+            alt="Abdellah Berrada dans sa boutique Optique Monovision"
             fill
             priority
             className="object-cover opacity-70"
@@ -78,7 +78,7 @@ export default function ExpertPage() {
             <p className="font-playfair italic text-xl lg:text-2xl text-ivory leading-snug">
               &ldquo;Voir mieux, c&apos;est vivre mieux. Mon rôle est de vous y conduire avec précision.&rdquo;
             </p>
-            <p className="font-sans text-sm text-cream/50 mt-3">— Abdullah Barada</p>
+            <p className="font-sans text-sm text-cream/50 mt-3">— Abdellah Berrada</p>
           </div>
         </div>
 
@@ -92,11 +92,11 @@ export default function ExpertPage() {
           </div>
 
           <h1 className="font-playfair text-[clamp(2.2rem,4vw,3.5rem)] text-obsidian leading-tight mb-6">
-            Abdullah Barada
+            Abdellah Berrada
           </h1>
 
           <p className="font-sans text-base text-obsidian/65 leading-relaxed mb-4">
-            Abdullah Barada a grandi avec une fascination pour la précision — celle
+            Abdellah Berrada a grandi avec une fascination pour la précision — celle
             des instruments, des mesures, des solutions sur mesure. Après un diplôme
             d&apos;opticien-lunetier et une spécialisation en contactologie, il a fondé
             Optique Monovision à Meknès avec une idée simple mais exigeante : offrir
@@ -262,7 +262,7 @@ export default function ExpertPage() {
       {/* ── CTA ── */}
       <div className="bg-obsidian py-20 px-6 text-center">
         <h2 className="font-playfair italic text-[clamp(1.8rem,4vw,3rem)] text-ivory mb-4">
-          Venez rencontrer Abdullah.
+          Venez rencontrer Abdellah.
         </h2>
         <p className="font-sans text-sm text-cream/55 max-w-md mx-auto mb-8 leading-relaxed">
           Du lundi au samedi de 9h à 20h. Pas de rendez-vous obligatoire — passez

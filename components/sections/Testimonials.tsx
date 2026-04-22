@@ -6,7 +6,7 @@ import { staggerContainer, fadeUp } from '@/lib/animations'
 
 const reviews = [
   {
-    text: "Une boutique hors du commun à Meknès. Abdullah a pris le temps de comprendre mes besoins visuels et m'a trouvé des lentilles parfaitement adaptées. Le cadre est magnifique, le service irréprochable.",
+    text: "Une boutique hors du commun à Meknès. Abdellah a pris le temps de comprendre mes besoins visuels et m'a trouvé des lentilles parfaitement adaptées. Le cadre est magnifique, le service irréprochable.",
     name: 'Salma A.',
     detail: 'Cliente — Lentilles de contact',
   },

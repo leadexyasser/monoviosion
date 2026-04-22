@@ -32,7 +32,7 @@ export default function BrandStatement() {
               <span className="italic text-brass">l&apos;excellence.</span>
             </h2>
             <p className="font-sans text-base text-cream/75 leading-relaxed mb-8 max-w-md">
-              Fondée par Abdullah Barada, opticien spécialisé en lentilles de contact,
+              Fondée par Abdellah Berrada, opticien spécialisé en lentilles de contact,
               Optique Monovision réunit expertise clinique et sens du détail dans un
               espace pensé pour vous.
             </p>

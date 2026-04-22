@@ -49,7 +49,7 @@ export default function ContactPage() {
           {
             Icon: Phone,
             label: 'Téléphone',
-            value: CONTACT.phone,
+            value: `${CONTACT.phone}\n${CONTACT.mobile}`,
             href: `tel:${CONTACT.phone.replace(/\s/g, '')}`,
           },
           {
